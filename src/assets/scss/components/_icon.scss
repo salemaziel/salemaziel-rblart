@@ -1,0 +1,29 @@
+///
+/// Dimension by HTML5 UP
+/// html5up.net | @ajlkn
+/// Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+///
+
+/* Icon */
+
+	.icon {
+		@include icon;
+		border-bottom: none;
+		position: relative;
+
+		> .label {
+			display: none;
+		}
+	}
+	.button-icon {
+		display: inline-block;
+		line-height: inherit;
+		vertical-align: middle;
+		align-items: center;
+		&.-love {
+		  color: red;
+		}
+		&.-twitter {
+		  color: #1da1f2;
+		}
+	}

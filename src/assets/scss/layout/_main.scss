@@ -1,0 +1,181 @@
+///
+/// Dimension by HTML5 UP
+/// html5up.net | @ajlkn
+/// Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+///
+
+/* Main */
+html {
+	scrollbar-color: linear-gradient(to bottom, #201c29, #100e17);
+	scrollbar-width: 10px;
+	overflow-x: hidden;
+}
+  
+html::-webkit-scrollbar {
+	width: 10px;
+	height: 10px;
+}
+  
+html::-webkit-scrollbar-thumb {
+	background: -webkit-gradient(
+	  linear,
+	  left top,
+	  left bottom,
+	  from(#201c29),
+	  to(#100e17)
+	);
+	background: linear-gradient(to bottom, #201c29, #100e17);
+	border-radius: 10px;
+	-webkit-box-shadow: inset 2px 2px 2px rgba(255, 255, 255, 0.25),
+	  inset -2px -2px 2px rgba(0, 0, 0, 0.25);
+	box-shadow: inset 2px 2px 2px rgba(255, 255, 255, 0.25),
+	  inset -2px -2px 2px rgba(0, 0, 0, 0.25);
+}
+  
+html::-webkit-scrollbar-track {
+	background: linear-gradient(
+	  to right,
+	  #201c29,
+	  #201c29 1px,
+	  #100e17 1px,
+	  #100e17
+	);
+}
+  
+pre::-webkit-scrollbar {
+    width: 10px;
+	height: 10px;
+}
+  
+pre::-webkit-scrollbar-thumb {
+	background: #201c29;
+	border-radius: 10px;
+	box-shadow: inset 2px 2px 2px rgba(255, 255, 255, 0.25),
+	  inset -2px -2px 2px rgba(0, 0, 0, 0.25);
+}
+  
+pre::-webkit-scrollbar-track {
+	background: linear-gradient(90deg, #201c29, #201c29 1px, #17141d 0, #17141d);
+}
+  
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active {
+	-webkit-box-shadow: 0 0 0 30px #1d1d1d inset !important;
+	box-shadow: 0 0 0 30px #1d1d1d inset !important;
+	color: #777 !important;
+}
+input:-webkit-autofill {
+	-webkit-text-fill-color: #777 !important;
+	color: #777;
+}
+.bio {
+	padding: 0.5rem;
+}
+/*.bio-avatar {
+	border-radius: 100%;
+}*/
+	#main {
+		@include vendor('flex-grow', '1');
+		@include vendor('flex-shrink', '1');
+		@include vendor('display', 'flex');
+		@include vendor('align-items', 'center');
+		@include vendor('justify-content', 'center');
+		@include vendor('flex-direction', 'column');
+		position: relative;
+		max-width: 100%;
+		z-index: 3;
+		display: none;
+
+		article {
+			@include vendor('transform', 'translateY(0.25rem)');
+			@include vendor('transition', (
+				'opacity #{_duration(article)} ease-in-out',
+				'transform #{_duration(article)} ease-in-out'
+			));
+			@include padding(2.5rem, 2.5rem, (2rem, 0, 1rem, 0));
+			position: relative;
+			width: 40rem;
+			max-width: 100%;
+			background-color: transparentize(_palette(bg), 0.15);
+			border-radius: _size(border-radius);
+			opacity: 0;
+
+			&.timeout {
+				display: none;
+			}
+
+			&.active.timeout {
+				@include vendor('transform', 'translateY(0)');
+				opacity: 1;
+			}
+
+			&.active {
+				display: block !important;
+			}
+
+			.close {
+				display: block;
+				position: absolute;
+				top: 0;
+				right: 0;
+				width: 4rem;
+				height: 4rem;
+				cursor: pointer;
+				text-indent: 4rem;
+				overflow: hidden;
+				white-space: nowrap;
+
+				&:before {
+					@include vendor('transition', 'background-color #{_duration(transition)} ease-in-out');
+					content: '';
+					display: block;
+					position: absolute;
+					top: 0.75rem;
+					left: 0.75rem;
+					width: 2.5rem;
+					height: 2.5rem;
+					border-radius: 100%;
+					background-position: center;
+					background-image: svg-url('<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20px" height="20px" viewBox="0 0 20 20" zoomAndPan="disable"><style>line { stroke: #{_palette(border)}; stroke-width: 1; }</style><line x1="2" y1="2" x2="18" y2="18" /><line x1="18" y1="2" x2="2" y2="18" /></svg>');
+					background-size: 20px 20px;
+					background-repeat: no-repeat;
+				}
+
+				&:hover {
+					&:before {
+						background-color: _palette(border-bg);
+					}
+				}
+
+				&:active {
+					&:before {
+						background-color: _palette(border-bg-alt);
+					}
+				}
+			}
+
+		}
+
+		@include breakpoint(small) {
+			article {
+				@include padding(2rem, 2rem, (1.5rem, 0, 0.5rem, 0));
+				.close {
+					&:before {
+						top: 0.875rem;
+						left: 0.875rem;
+						width: 2.25rem;
+						height: 2.25rem;
+						background-size: 14px 14px;
+					}
+				}
+			}
+		}
+
+		@include breakpoint(xsmall) {
+			article {
+				@include padding(2rem, 1.5rem, (1rem, 0, 0.5rem, 0));
+			}
+		}
+	}
