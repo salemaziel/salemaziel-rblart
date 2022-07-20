@@ -45,15 +45,15 @@ const Layout = ({ children, location }) => {
           <Helmet
             title={data.site.siteMetadata.title}
             meta={[
-              { name: 'description', content: 'Salem Aziel Personal Web Site' },
-              { name: 'keywords', content: 'Salem Aziel, web developer, tech consultant' },
+              { name: 'description', content: 'RBL Art Designs - Tech For the People.  Web development and tech consulting.' },
+              { name: 'keywords', content: 'RBL Art Designs, RBL Art, web development, tech consulting, for the people' },
             ]}
           >
             <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml" />
             <html lang="en" />
           </Helmet>
           {content}
-          <CookieConsent
+          {/*<CookieConsent
             enableDeclineButton 
             flipButtons
             location="bottom"
@@ -73,7 +73,7 @@ const Layout = ({ children, location }) => {
               textShadow: "2px 2px black",
             }}
           >
-            Salem Aziel uses cookies for a better user experience.{" "}
+            RBL Art Designs uses cookies for a better user experience.{" "}
             <span 
               style={{ 
                 fontSize: "14px",
@@ -84,11 +84,11 @@ const Layout = ({ children, location }) => {
               <span className="icon -lock">
                 <SiGnuprivacyguard />
               </span>{" "} 
-              <Link to='https://publiuslogic.com/privacy' alt='Privacy Page'>
+              <Link to='https://rblartdesign.com/privacy' alt='Privacy Page'>
                 Privacy Page
               </Link>
             </span>
-          </CookieConsent>
+            </CookieConsent>*/}
         </>
       )}
     />

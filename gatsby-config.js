@@ -42,37 +42,37 @@ module.exports = {
         icon: 'static/assets/logo-idea1-150px-whiteshadow.png', // This path is relative to the root of the site.
       },
     },
-    {
-      resolve: `gatsby-plugin-gdpr-cookies`,
-      options: {
-        googleAnalytics: {
-          trackingId: '', // leave empty if you want to disable the tracker
-          cookieName: 'gatsby-gdpr-google-analytics', // default
-          anonymize: true, // default
-          allowAdFeatures: false // default
-        },
-        googleTagManager: {
-          trackingId: '', // leave empty if you want to disable the tracker
-          cookieName: 'gatsby-gdpr-google-tagmanager', // default
-          dataLayerName: 'dataLayer', // default
-        },
-        facebookPixel: {
-          pixelId: '', // leave empty if you want to disable the tracker
-          cookieName: 'gatsby-gdpr-facebook-pixel', // default
-        },
-        tikTokPixel: {
-          pixelId: '', // leave empty if you want to disable the tracker
-          cookieName: 'gatsby-gdpr-tiktok-pixel', // default
-        },
+//    {
+//      resolve: `gatsby-plugin-gdpr-cookies`,
+//      options: {
+//        googleAnalytics: {
+//          trackingId: '', // leave empty if you want to disable the tracker
+//          cookieName: 'gatsby-gdpr-google-analytics', // default
+//          anonymize: true, // default
+//          allowAdFeatures: false // default
+//        },
+//        googleTagManager: {
+//          trackingId: '', // leave empty if you want to disable the tracker
+//          cookieName: 'gatsby-gdpr-google-tagmanager', // default
+//          dataLayerName: 'dataLayer', // default
+//        },
+//        facebookPixel: {
+//          pixelId: '', // leave empty if you want to disable the tracker
+//          cookieName: 'gatsby-gdpr-facebook-pixel', // default
+//        },
+//        tikTokPixel: {
+//          pixelId: '', // leave empty if you want to disable the tracker
+//          cookieName: 'gatsby-gdpr-tiktok-pixel', // default
+//        },
 //      hotjar: {
 //        hjid: '0000000',
 //        hjsv: '6',
 //        cookieName: 'gatsby-gdpr-hotjar', // default
 //      },
-        // defines the environments where the tracking should be available  - default is ["production"]
-        environments: ['production', 'development']
-      },
-    },
+//        // defines the environments where the tracking should be available  - default is ["production"]
+//        environments: ['production', 'development']
+//      },
+//    },
     'gatsby-plugin-sass',
     'gatsby-plugin-offline',
     `gatsby-plugin-sitemap`
