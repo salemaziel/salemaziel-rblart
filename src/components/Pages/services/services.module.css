@@ -1,0 +1,20 @@
+.platformsContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.platforms {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+}
+
+.platforms p {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 0;
+}

@@ -1,3 +1,13 @@
 .cursor-pointer {
     cursor: pointer;
 }
+
+.text-lowercase {
+    text-transform: lowercase;
+}
+
+.text-normal {
+    text-transform: none;
+    font-size: 1rem;
+    font-weight: 600;
+}

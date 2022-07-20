@@ -16,10 +16,12 @@ const Header = (props) => (
         <nav>
             <ul>
                 <li><a href="javascript:;" onClick={() => {props.onOpenArticle('services')}}>Services</a></li>
-                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('digitalrealestate')}}>Digital Real Estate</a></li>
+                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('philosophy')}}>Philosophy</a></li>
                 <li><a href="javascript:;" onClick={() => {props.onOpenArticle('consultations')}}>Consultations</a></li>
-                <li><a href="https://salemaziel.com/blog" rel="noopener noreferrer" target="_blank" area-label="Salem Aziel Blog" /* onClick={() => {props.onOpenArticle('contact')}} */ >Blog</a></li>
-                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('contact')}}>1312</a></li>
+                {/*<li><a href="https://salemaziel.com/blog" rel="noopener noreferrer" target="_blank" area-label="Salem Aziel Blog" /* onClick={() => {props.onOpenArticle('contact')}} * / >Blog</a></li>*/}
+                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('1312')}}>1312</a></li>
+                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('art')}}>Art</a></li>
+            {/**     <li><a href="javascript:;" onClick={() => {props.onOpenArticle('contact')}}>Contact</a></li> */}
             </ul>
         </nav>
     </header>

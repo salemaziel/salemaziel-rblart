@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: "Salem Aziel - Web Developer & Tech Consultant",
+    title: "RBL Art Designs - Tech For the People",
     author: "Salem Aziel",
-    siteUrl: "https://salemaziel.com",
+    siteUrl: "https://rblartdesign.com",
     siteImage: "/static/assets/bg.jpg",
     description: "Tech for the people. Web development and tech consulting.",
   },
@@ -33,8 +33,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'Salem Aziel - Web Developer & Tech Consultant',
-        short_name: 'Salem Aziel',
+        name: 'RBL Art Designs - Tech for the people. Web development and tech consulting.',
+        short_name: 'RBL Art Designs',
         start_url: '/',
         background_color: '#000000',
         theme_color: '#000000',
@@ -46,29 +46,29 @@ module.exports = {
       resolve: `gatsby-plugin-gdpr-cookies`,
       options: {
         googleAnalytics: {
-          trackingId: 'UA-000000-2', // leave empty if you want to disable the tracker
+          trackingId: '', // leave empty if you want to disable the tracker
           cookieName: 'gatsby-gdpr-google-analytics', // default
           anonymize: true, // default
           allowAdFeatures: false // default
         },
         googleTagManager: {
-          trackingId: 'GTM-00000000', // leave empty if you want to disable the tracker
+          trackingId: '', // leave empty if you want to disable the tracker
           cookieName: 'gatsby-gdpr-google-tagmanager', // default
           dataLayerName: 'dataLayer', // default
         },
         facebookPixel: {
-          pixelId: 'YOUR_FACEBOOK_PIXEL_ID', // leave empty if you want to disable the tracker
+          pixelId: '', // leave empty if you want to disable the tracker
           cookieName: 'gatsby-gdpr-facebook-pixel', // default
         },
         tikTokPixel: {
-          pixelId: 'YOUR_TIKTOK_PIXEL_ID', // leave empty if you want to disable the tracker
+          pixelId: '', // leave empty if you want to disable the tracker
           cookieName: 'gatsby-gdpr-tiktok-pixel', // default
         },
-        hotjar: {
-          hjid: '0000000',
-          hjsv: '6',
-          cookieName: 'gatsby-gdpr-hotjar', // default
-        },
+//      hotjar: {
+//        hjid: '0000000',
+//        hjsv: '6',
+//        cookieName: 'gatsby-gdpr-hotjar', // default
+//      },
         // defines the environments where the tracking should be available  - default is ["production"]
         environments: ['production', 'development']
       },

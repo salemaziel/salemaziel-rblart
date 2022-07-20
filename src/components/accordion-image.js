@@ -6,35 +6,37 @@ import { Fade, Slide } from 'react-awesome-reveal'
 const AccordionImage = ({ title, image, content, text }) => {
     const [isActive, setIsActive] = useState(false);
     return (
+        <>
         <div 
         className="cursor-pointer"
         style={{ marginBottom: '2em'}}
         onClick={() => setIsActive(!isActive)}
         >
-            <h3 className='text-center'>{title}</h3>
-
+            <h3 className='text-normal' >{title}</h3>
+        </div>
+        
 
                 {isActive && 
                 <Fade>
                     <span className="image main">
                     <div
-                        className="cursor-pointer"
+                        className=""
                         id="accordion"
                     >
-                    {/*<StaticImage
-                        formats={["auto", "webp"]}
-                        src={image}
-                        alt="Intro"
-                    />*/}   
-                    <img src={image} alt={title} />
+                        <div className="accordion-content">
+                            <p style={{marginBottom: '0'}}>{text}</p>
+                        </div>
+                    <img src={image} alt={title} style={{ padding: '1rem' }}/>
                     </div>
                         <div className="accordion-content">
                             <p>{content}</p>
                         </div>
                     </span>
-                </Fade>}
                     
-        </div>
+                </Fade>
+                }
+       
+        </>
     )
 };
 export default AccordionImage;

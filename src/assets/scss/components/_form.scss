@@ -27,6 +27,7 @@
 
 		> .actions {
 			margin: ($gutter * 1.25) 0 0 0 !important;
+			text-align: center;
 		}
 
 		@include breakpoint(small) {

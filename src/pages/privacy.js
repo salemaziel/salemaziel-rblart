@@ -38,14 +38,13 @@ const Privacy = () => (
               - Internet Service Provider (ISP)
               - Date and time stamp
               - Referring and exit pages
-              - Number of clicks
             </div>
             All of this information is not linked to anything that is personally identifiable.
 
-           <h2>Cookies And Beacons</h2>
+           {/*<h2>Cookies And Beacons</h2>*/}
 
-           <p>🍪 When you visit this site "convenience" cookies are stored on your computer when you submit a comment to help you log in faster to 
-             🔗 \* <Link to="https://twitter.com/salemamb760" alt="Twitter">Twitter</Link> the next time you tweet.</p>             
+         {/*} <p>🍪 When you visit this site "convenience" cookies are stored on your computer when you submit a comment to help you log in faster to 
+             🔗 \* <Link to="https://twitter.com/salemamb760" alt="Twitter">Twitter</Link> the next time you tweet.</p>   */}         
         </p>
         <Link to="/" className="button">
           <RiArrowLeftSLine className="button-icon"
@@ -56,7 +55,7 @@ const Privacy = () => (
           />
             Back to Homepage
         </Link>
-        <Link to="https://salemaziel.com" className="button -outline" rel="noopener noreferrer" target="_blank" area-label="PubliusLogic">
+       {/*} <Link to="https://salemaziel.com" className="button -outline" rel="noopener noreferrer" target="_blank" area-label="Salem Aziel">
           Full Privacy Page 
           <RiArrowRightSLine className="button-icon"
             style={{
@@ -64,7 +63,7 @@ const Privacy = () => (
               color: "gray",
             }}        
           />          
-        </Link>
+          </Link>*/}
     </div>
   </Layout>
 )

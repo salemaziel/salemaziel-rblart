@@ -1,12 +1,12 @@
 module.exports = {
-  siteTitle: "Personal Blog and Portfolio for Salem Aziel", // <title>
-  manifestName: "Salem Aziel",
-  manifestShortName: "Salem Aziel", // max 12 characters
+  siteTitle: "RBL Art Designs - Tech For the People", // <title>
+  manifestName: "RBL Art Designs",
+  manifestShortName: "RBL Art", // max 12 characters
   manifestStartUrl: '/',
   manifestBackgroundColor: '#000',
   manifestThemeColor: '#fff',
   manifestDisplay: 'minimal-ui',
-  manifestIcon: 'src/assets/img/persona-lightshadow.png',
+  manifestIcon: './static/assets/logo-idea1-250px-whiteshadow.png',
   //pathPrefix: `/content/shop`, // This path is subpath of your hosting https://domain/portfolio
   pathPrefix: `/content/`,
   authorName: `Salem Aziel`,

@@ -8,7 +8,7 @@ import { RiInstagramFill } from "@react-icons/all-files/ri/RiInstagramFill"
 import { RiGithubFill } from "@react-icons/all-files/ri/RiGithubFill"
 import { RiYoutubeFill, } from "@react-icons/all-files/ri/RiYoutubeFill"
 
-import Tab from './tab'
+import Form from './form'
 import Services from './Pages/services/services'
 
 const Main = (props) => {
@@ -18,66 +18,30 @@ const Main = (props) => {
       <div ref={props.setWrapperRef} id="main" style={props.timeout ? {display: 'flex'} : {display: 'none'}}>
 
         <article id="services" className={`${props.article === 'services' ? 'active' : ''} ${props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
-          {/*<Link to="https://.com" rel="noopener noreferrer" target="_blank" area-label="">
-            <h2 className="major">Intro</h2>
-          </Link>
-          <span className="image main">
-            <Link to="https://.com" rel="noopener noreferrer" target="_blank" area-label="">
-              <StaticImage
-                formats={["auto", "webp"]}
-                src="../../static/assets/pic01.jpg"
-                alt="Intro" 
-              />
-            </Link>
-          </span>
-          <p>
-            Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin
-            aliquam facilisis ante interdum congue. Integer mollis, nisl amet
-            convallis, porttitor magna ullamcorper, amet egestas mauris. Ut
-            magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas.
-            By the way, check out my <a href="#work">awesome work</a>.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-            dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora
-            torquent per conubia nostra, per inceptos himenaeos. Etiam tristique
-            libero eu nibh porttitor fermentum. Nullam venenatis erat id
-            vehicula viverra. Nunc ultrices eros ut ultricies condimentum.
-            Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae
-            dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in
-            lectus. Pellentesque habitant morbi tristique senectus et netus et
-            malesuada fames ac turpis egestas. In non lorem sit amet elit
-            placerat maximus. Pellentesque aliquam maximus risus, vel sed
-            vehicula.
-  </p>*/}
 
         <Services
           image="../../static/assets/pic01.jpg"
           title="Services"
-          content="Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin aliquam facilisis ante interdum congue. Integer mollis, nisl amet convallis, porttitor magna ullamcorper, amet egestas mauris. Ut magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas. By the way, check out my awesome work."
-          text1="Beautiful promotional landing page, customized to fit you."
-          text2="With just one url, offer your followers multiple links to stream your music, view your galleries, shop your merch, and connect with you on social media. "
-          image2="../../static/assets/pic01.jpg"
-          text3="Perfect for Artists, Influencers, Journalists, Agencies and Businesses"
-          image3="../../static/assets/pic01.jpg"
           />
 
           {close}
         </article>
 
-        <article id="digitalrealestate" className={`${props.article === 'digitalrealestate' ? 'active' : ''} ${props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
-        <Link to="https://mansbooks.com" rel="noopener noreferrer" target="_blank" area-label="Mansbooks">
-          <h2 className="major">Digital Real Estate</h2>
-        </Link>
+        <article id="philosophy" className={`${props.article === 'philosophy' ? 'active' : ''} ${props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
+        {/*<Link to="https://mansbooks.com" rel="noopener noreferrer" target="_blank" area-label="Mansbooks">*/}
+          <h2 className="major">Philosophy and Values</h2>
+        {/*</Link>*/}
           <span className="image main">
-            <Link to="https://mansbooks.com" rel="noopener noreferrer" target="_blank" area-label="Mansbooks">
+           {/*} <Link to="https://mansbooks.com" rel="noopener noreferrer" target="_blank" area-label="Mansbooks">*/}
               <StaticImage
                 formats={["auto", "webp"]}
-                src="../../static/assets/pic02.jpg"
+                src="../../static/assets/revolutionary-crop2-resize.jpg"
                 alt="Work" 
               />
-            </Link>
+           {/*} </Link>*/}
           </span>
+          <h3>Coming Soon</h3>
+          <br />
           <p>
             Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu,
             at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent
@@ -97,29 +61,82 @@ const Main = (props) => {
         </article>
 
         <article id="consultations" className={`${props.article === 'consultations' ? 'active' : ''} ${props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
-          <Link to="" rel="noopener noreferrer" target="_blank" area-label="">
+         {/* <Link to="" rel="noopener noreferrer" target="_blank" area-label="">*/}
             <h2 className="major">Consultations</h2>
-          </Link>
+          {/*</Link>*/}
           <span className="image main">
-            <Link to="https://" rel="noopener noreferrer" target="_blank" area-label="">
+           {/*} <Link to="https://" rel="noopener noreferrer" target="_blank" area-label="">*/}
               <StaticImage
                 formats={["auto", "webp"]}
-                src="../../static/assets/pic03.jpg"
+                src="../../static/assets/consultation-1920.jpg"
                 alt="Consultations" 
               />
-            </Link>
+           {/*} </Link>*/}
           </span>
           <p>
-            Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent
-            eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam
-            erat volutpat. Praesent urna nisi, fringila lorem et vehicula
-            lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.
-            Aliquam libero et malesuada fames ac ante ipsum primis in faucibus.
-            Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit
-            amet.
+            Two 60 Minute sessions: 
+            <br />
+            <br />
+            <ol>
+              <li>
+                Discovery Session: We discuss your business or sidehustle, your goals for them, technology currently in use, analyze your current strategy, determine what can be improved, what can be added or removed, and where your pain points are.
+              </li>
+              <br />
+              <li>
+                Strategy Session: Based on the information we provided in the Discovery Session, we will create a strategy for your business or sidehustle. We will offer recommendations on your strategy, suggestions on workflows you can automate, show you the best tools your business can be utilizing, and setup a plan to implement them.
+                </li>
+              </ol>
           </p>
+          <br />
+          <Form formName="consultations" />
           {close}
         </article>
+
+
+        <article id="1312" className={`${props.article === '1312' ? 'active' : ''} ${props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
+          <Link to="" rel="noopener noreferrer" target="_blank" area-label="">
+            <h2 className="major">1312</h2>
+          </Link>
+          <span className="image main">
+            {/*<Link to="https://" rel="noopener noreferrer" target="_blank" area-label="">*/}
+              <StaticImage
+                formats={["auto", "webp"]}
+                src="../../static/assets/revolutionary-crop2-resize.jpg"
+                alt="ACAB" 
+              />
+           {/*} </Link>*/}
+          </span>
+          <h3>Coming Soon</h3>
+          <br />
+            <Form formName="1312" />
+          {close}
+        </article>
+
+
+        <article id="art" className={`${props.article === 'art' ? 'active' : ''} ${props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
+         {/*  <Link to="" rel="noopener noreferrer" target="_blank" area-label="">*/}
+            <h2 className="major">Art</h2>
+         {/*  </Link>*/}
+          <span className="image main">
+            {/*<Link to="https://" rel="noopener noreferrer" target="_blank" area-label="">*/}
+              <StaticImage
+                formats={["auto", "webp"]}
+                src="../../static/assets/G and B jpg-01.jpg"
+                alt="Artist" 
+              />
+          {/*  </Link>*/}
+          </span>
+          <h3>Coming Soon</h3>
+          <br />
+          <blockquote>
+          Artists of today would rather usher in a decorative doomsday instead of trying to inspire the revolutionaries of tomorrow.
+          </blockquote>
+          {close}
+        </article>
+
+
+
+
 
         <article id="contact" className={`${props.article === 'contact' ? 'active' : ''} ${props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Contact Form</h2>

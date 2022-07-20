@@ -22,7 +22,7 @@
     X-Frame-Options = "DENY"
     X-XSS-Protection = "1; mode=block"
     Access-Control-Allow-Origin = '''
-      https://salemaziel.com,
+      https://rblartdesign.com,
       https://graphql.fauna.com,
       https://graphql.fauna.com/graphql
       https://img.badgesize.io/, 
