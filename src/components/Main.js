@@ -23,6 +23,7 @@ const Main = (props) => {
           image="../../static/assets/pic01.jpg"
           title="Services"
           />
+          
 
           {close}
         </article>

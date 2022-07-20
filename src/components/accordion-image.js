@@ -4,7 +4,7 @@ import { Fade, Slide } from 'react-awesome-reveal'
 //import Pic01 from '../../static/assets/pic01.jpg'
 
 const AccordionImage = ({ title, image, content, text }) => {
-    const [isActive, setIsActive] = useState(false);
+    const [isActive, setIsActive] = useState(true);
     return (
         <>
         <div 
