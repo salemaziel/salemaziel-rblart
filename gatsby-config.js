@@ -42,6 +42,17 @@ module.exports = {
         icon: 'static/assets/logo-idea1-150px-whiteshadow.png', // This path is relative to the root of the site.
       },
     },
+    {
+      resolve: 'gatsby-plugin-matomo',
+      options: {
+        siteId: '2',
+        matomoUrl: 'https://m.rblartdesign.com',
+        siteUrl: 'https://rblartdesign.com',
+        matomoJsScript: 'stats.js',
+        disableCookies: true,
+        respectDnt: true,
+      }
+    },
 //    {
 //      resolve: `gatsby-plugin-gdpr-cookies`,
 //      options: {
