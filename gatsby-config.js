@@ -49,10 +49,12 @@ module.exports = {
         matomoUrl: 'https://m.rblartdesign.com',
         siteUrl: 'https://rblartdesign.com',
         matomoJsScript: 'stats.js',
+        matomoPhpScript: 'stats.php',
         disableCookies: true,
         respectDnt: true,
       }
     },
+    'gatsby-plugin-remove-generator',
 //    {
 //      resolve: `gatsby-plugin-gdpr-cookies`,
 //      options: {

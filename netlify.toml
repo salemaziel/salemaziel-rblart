@@ -23,6 +23,7 @@
     X-XSS-Protection = "1; mode=block"
     Access-Control-Allow-Origin = '''
       https://rblartdesign.com,
+      https://m.rblartdesign.com,
       https://graphql.fauna.com,
       https://graphql.fauna.com/graphql
       https://img.badgesize.io/, 

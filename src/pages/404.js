@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 import { RiArrowLeftSLine } from "@react-icons/all-files/ri/RiArrowLeftSLine"
-import { RiBugLine } from "@react-icons/all-files/ri/RiBugLine"
+//import { RiBugLine } from "@react-icons/all-files/ri/RiBugLine"
 import { RiSkullLine } from "@react-icons/all-files/ri/RiSkullLine"
 
 import Layout from "../components/layout"
@@ -36,7 +36,7 @@ const NotFound = () => (
         />
         Back to Homepage
       </Link>
-      <Link to="" className="button -outline">
+      {/*<Link to="" className="button -outline">
         Report this 
         <RiBugLine className="button-icon"
           style={{
@@ -44,7 +44,7 @@ const NotFound = () => (
             color: "gray",
           }}        
         />
-      </Link>
+        </Link>*/}
     </div>
   </Layout>
 )
