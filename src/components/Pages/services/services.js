@@ -120,19 +120,19 @@ const Services = (props) => {
       title: 'E-Commerce Optimization',
       image: Ecommerce,
       content: ecomOptimizationContent(),
-      text: "Your E-Commerce shop could use some help. "
+      text: "Your E-Commerce shop could use some help."
     },
     {
       title: 'Workflow Automation',
       image: Automation,
       content: workAutomationContent(),
-      text: "Stop wasting time and money on doing repetitive manually."
+      text: "Stop wasting time and money doing repetitive tasks manually."
     },
     {
       title: 'Linux/Cloud Server Management',
       image: Server,
       content: serverContent(),
-      text: "Linux and cloud server administration made easy."
+      text: "Linux and cloud server administration assistance, advice, full-service options."
     },
     {
       title: 'Consultation',

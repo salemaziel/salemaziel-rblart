@@ -29,11 +29,11 @@ const Main = (props) => {
         </article>
 
         <article id="philosophy" className={`${props.article === 'philosophy' ? 'active' : ''} ${props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
-        {/*<Link to="https://mansbooks.com" rel="noopener noreferrer" target="_blank" area-label="Mansbooks">*/}
+        {/*<Link to="#" rel="noopener noreferrer" target="_blank" area-label="">*/}
           <h2 className="major">Philosophy and Values</h2>
         {/*</Link>*/}
           <span className="image main">
-           {/*} <Link to="https://mansbooks.com" rel="noopener noreferrer" target="_blank" area-label="Mansbooks">*/}
+           {/*} <Link to="#" rel="noopener noreferrer" target="_blank" area-label="">*/}
               <StaticImage
                 formats={["auto", "webp"]}
                 src="../../static/assets/revolutionary-crop2-resize.jpg"
