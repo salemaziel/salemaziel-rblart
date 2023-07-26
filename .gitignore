@@ -10,3 +10,11 @@ yarn.lock
 # Build directory
 /public
 .DS_Store
+
+.lh
+
+.history
+
+.yarn
+
+*.code-workspace

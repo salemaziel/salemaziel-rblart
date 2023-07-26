@@ -39,25 +39,92 @@ const Main = (props) => {
                 src="../../static/assets/revolutionary-crop2-resize.jpg"
                 alt="Work" 
               />
-           {/*} </Link>*/}
+           {/* </Link>*/}
           </span>
-          <h3>Coming Soon</h3>
+          <h3>Values</h3>
           <br />
-          <p>
-            Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu,
-            at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent
-            urna nisi, fringila lorem et vehicula lacinia quam. Integer
-            sollicitudin mauris nec lorem luctus ultrices.
+          <p><strong>
+            <em>All humans and living things are sacred and we should intent to treat each with respect for their own sake, to benefit of the most as possible, and not ever as a means for a selfish end.</em></strong>
           </p>
           <p>
-            Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus pharetra.
-            Pellentesque condimentum sem. In efficitur ligula tate urna.
-            Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor.
-            Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat
-            tempus.
+          <strong>
+          <em>
+            We should strive to be as honest, as kind, as transparent, as empathetic, as open-minded yet as evidence-based as possible.</em></strong>
           </p>
+          <p>
+            The result of these values has led me to these beliefs:
+          </p>
+          <hr />
+
+          <h4>
+                  <strong>Black Lives (and Brown Lives, and Native Lives, and Asian Lives, and Arab Lives, and Jewish Lives) Matter. </strong> </h4>
+          <p>
+                  <br />
+                  It's not that White lives don't matter; it's that non-white lives are the ones being disproportionately affected by legal and economic systems deeply ingrained into our society. The United States was founded on high ideals that its laws fail miserably at living up to. A system ingrained so strongly implemented with racial discrimination that <a href="https://www.law.nyu.edu/sites/default/files/upload_documents/Hitler%27s%20American%20Model%20for%20NYU.pdf" rel="noopener noreferrer" target="_blank" style={{ fontStyle: "italic" }}> Hitler himself looked up to it as a model for his own </a> does not disappear overnight, or even in a few decades. <strong>White lives have always mattered to our justice system; non-white lives have not.</strong> That's why these statements and movements are necessary.
+          </p>
+          <p>
+            "All Lives Matter" is an empty, virtue-signaling statement that is entirely meaningless, and just serves to distract and deflect from the racial disparities being brought up. It's never used as the driving philosophy behind any movements or policies to better All Lives; it's not intended to.
+          </p>
+          <p>
+            What? I'm wrong? Dope! I'll see you at the next All Lives Matter rally then!
+            <br />
+            Lmao. No I won't. Because there aren't any. Because it's not a real movement. It's a distraction. 
+          </p>
+          <hr />
+          <h4>
+          Support for LGBTQIA Rights
+          </h4>
+          <p>
+          The advocacy for LGBTQIA rights extends beyond mere acceptance. It is a fight for recognition, equality, and the right to exist without fear. This value reflects my belief in the importance of personal freedom, love, and the right to express one’s identity without fear of reprisal. It’s about ensuring that everyone, regardless of their gender identity or sexual orientation, can live authentically and openly. Everyone deserves the right to love, live, and identify as they see fit.
+          </p>
+          <p>
+          "But it's a mental illness!"
+          <br />
+          It's not, anyone with a basic understanding of psychology knows that. But even if it was, so what? That doesn't mean they don't deserve the same rights as everyone else. It also would mean that you're actively trying to make life harder for people with a mental illness, which still makes you a piece of shit. This isn't the argument you think it is. 
+          </p>
+          <p>
+            "But what about the children?! They're sexualizing them and that's bad!!"
+            <br />
+            Yeah, you're right, it is bad; it would be if that were true anyways. If you really want to protect children, start with the churches, which are so prevalent with child sexual abuse that <a href='https://www.ministryinsured.com/church-insurance/liability/abuse-molestation/' rel="noopener noreferer" target="_blank" > insurance companies have starting offering liability policies for it.</a>
+            <br />
+            That's not a problem drag shows have ever had.
+          </p>
+          <hr />
+          <h4>
+          Housing for the Homeless
+          </h4>
+          <p>
+            There's more empty houses in America than homeless people. You know how to solve the homeless issue? Give them houses; it's not that fucking hard.
+          </p>
+          <hr />
+          <h4>
+          Food for the Hungry
+          </h4>
+          <p>
+            Feed people. All people. End of story.
+          </p>
+          <p>
+            You saw someone take food from a grocery store? No you fucking didn't. 
+          </p>
+          <hr />
+          <h4>
+          Ending the Drug War
+          </h4>
+          <p>
+            I can write a whole research article on this one; in fact I have (will link to it later).
+            Fuck the drug war, fuck the DEA, fuck ICE, fuck the police and everyone else enforcing this this.
+          </p>
+          <p>
+            Oh yeah, and to the Sackler family: Justice hasn't gotten you yet, but it will.
+          </p>
+          <hr />
+          <h4>
+          Evolving Past Capitalism
+          </h4>
+          <p>
+          Let’s be honest, capitalism is wreaking havoc. It’s a system that allows a select few to hoard wealth while literally leaving others to die. The planet can’t take it, and neither can the majority of us. It’s clear we’ve got to evolve past the fantasy that profit-driven incentives are best if we want to have a shot at a sustainable and fair future. We need to evolve, and fast, towards an economic model that values all of us, not just the select few. The harder those select few make this evolution for all of us, the more painful it's going to be for them. 
+          </p>
+
           {close}
         </article>
 

@@ -145,8 +145,8 @@ const Services = (props) => {
   return (
     <>
       <h2 className="major">{props.title}</h2>
-      {accordionData.map(({ title, image, content, text }) => (
-        <AccordionImage title={title} image={image} content={content} text={text} />
+      {accordionData.map(({ title, subtitle, image, content, text }) => (
+        <AccordionImage title={title} subtitle={subtitle} image={image} content={content} text={text} />
       ))}
 
     </>
